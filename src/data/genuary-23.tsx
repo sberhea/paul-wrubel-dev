@@ -5,6 +5,7 @@ import Day03Paul from "genuaryentries/2023/day03/Paul";
 import Day05Paul from "genuaryentries/2023/day05/Paul";
 import Day06Paul from "genuaryentries/2023/day06/Paul";
 import Day07Paul from "genuaryentries/2023/day07/Paul";
+import Day18Selam from "genuaryentries/2023/day18/Selam";
 
 const AuthorsLinks = {
     "Paul Wrubel": "https://github.com/paulwrubel",
@@ -144,6 +145,14 @@ const days: Day[] = [
     {
         day: "18",
         prompt: "Bauhaus.",
+        entries: [
+            {
+                name: "Bauhaus Sun",
+                author: "Selam Berhea",
+                description: "Some kind of sun",
+                component: <Day18Selam />,
+            },
+        ],
     },
     {
         day: "19",
