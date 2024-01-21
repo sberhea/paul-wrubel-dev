@@ -1,6 +1,10 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 import Day01Paul from "genuaryentries/2023/day01/Paul";
 import Day01Selam from "genuaryentries/2023/day01/Selam";
+import Day03Paul from "genuaryentries/2023/day03/Paul";
+import Day05Paul from "genuaryentries/2023/day05/Paul";
+import Day06Paul from "genuaryentries/2023/day06/Paul";
+import Day07Paul from "genuaryentries/2023/day07/Paul";
 
 const AuthorsLinks = {
     "Paul Wrubel": "https://github.com/paulwrubel",
@@ -43,11 +47,19 @@ const days: Day[] = [
     {
         day: "2",
         prompt: "No palettes.",
-        entries: [],
     },
     {
         day: "3",
         prompt: "Droste Effect.",
+        entries: [
+            {
+                name: "Geometric Infinitism",
+                author: "Paul Wrubel",
+                description:
+                    "How far down does it go? (Click to warp to another dimension)",
+                component: <Day03Paul />,
+            },
+        ],
     },
     {
         day: "4",
@@ -56,14 +68,38 @@ const days: Day[] = [
     {
         day: "5",
         prompt: "In the style of Vera Molnár (1924-2023).",
+        entries: [
+            {
+                name: "Panes",
+                author: "Paul Wrubel",
+                description: "click to regenerate",
+                component: <Day05Paul />,
+            },
+        ],
     },
     {
         day: "6",
         prompt: "Screensaver.",
+        entries: [
+            {
+                name: "Bubbles",
+                author: "Paul Wrubel",
+                description: "bright bouncing bubbles",
+                component: <Day06Paul />,
+            },
+        ],
     },
     {
         day: "7",
         prompt: "Progress bar / indicator / loading animation.",
+        entries: [
+            {
+                name: "Bar and Spinner",
+                author: "Paul Wrubel",
+                description: "maybe one day it will load...",
+                component: <Day07Paul />,
+            },
+        ],
     },
     {
         day: "8",
